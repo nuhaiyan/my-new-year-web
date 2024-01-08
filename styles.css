@@ -112,15 +112,15 @@ line-height: 30px; /* 166.667% */
     font-weight: 700;
 }
 .section-3{
-    margin-top: 200px;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+   justify-content: center; 
+   align-items: center;
+    margin: auto;
 }
 .sec3-container{
     display: flex;
+    margin-top: 200px;
     gap:100px;
-    margin-top: 100px;
-    align-content: center;
 }
 .sec3-p1-mini-title{
     color: #F00;
@@ -178,8 +178,12 @@ font-weight: 400;
 line-height: 32px; 
 }
 .section-4{
+    margin: auto;
     margin-top: 200px;
-    margin-left: 2275px;
+    display: flex;
+   justify-content: center; 
+   align-items: center;
+    
 }
 .sec4-p1-mini-title{
     color: #F00;
@@ -207,3 +211,111 @@ line-height: 32px;
     line-height: 32px; /* 160% */
     width: 896px;
 }
+.sec4-p4-img1{
+    display: flex;
+    height: auto;
+    width: 100%;
+    
+}
+.sec4-p5-img2{
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+.sec4i1{
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+}
+.sec4i1 img{
+    display: block;
+    transition: transform 1s;
+    
+}
+.sec4i1:hover img{
+    transform: scale(1.2);
+    overflow: hidden;
+}
+
+.sec4i2{
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+}
+.sec4i2 img{
+    display: block;
+    transition: transform 1s;
+    
+}
+.sec4i2:hover img{
+    transform: scale(1.2);
+    overflow: hidden;
+}
+
+.sec4i3{
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+}
+.sec4i3 img{
+    display: block;
+    transition: transform 1s;
+    
+}
+.sec4i3:hover img{
+    transform: scale(1.2);
+    overflow: hidden;
+}
+
+.sec4i4{
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+}
+.sec4i4 img{
+    display: block;
+    transition: transform 1s;
+    
+}
+.sec4i4:hover img{
+    transform: scale(1.2);
+    overflow: hidden;
+}
+
+.sec4i5{
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+}
+.sec4i5 img{
+    display: block;
+    transition: transform 1s;
+    
+}
+.sec4i5:hover img{
+    transform: scale(1.2);
+    overflow: hidden;
+}
+
+.sec4i6{
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+}
+.sec4i6 img{
+    display: block;
+    transition: transform 1s;
+    
+}
+.sec4i6:hover img{
+    transform: scale(1.2);
+    overflow: hidden;
+}
+
