@@ -13,9 +13,7 @@ margin: auto;
     text-align: center;
     font-family: Merriweather;
     font-size: 32px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 .head-info{
     padding-top: 0px;
@@ -102,7 +100,110 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
 }
-.sec2.btn{
-    background-color: transparent;
+.sec2-btn{
+    cursor: pointer; 
+    border: 1px solid black; 
+    background-color: transparent; 
+    color: white; 
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+.section-3{
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sec3-container{
+    display: flex;
+    gap:100px;
+    margin-top: 100px;
+    align-content: center;
+}
+.sec3-p1-mini-title{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
 
+font-weight: 500;
+
+}
+.sec3-p1-title{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+}
+.sec3-p1-info{
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+}
+.sec2-p2-img{
+    padding-left: 42px;
+    padding-top: 40px;
+    padding-right: 50px;
+}
+.sec3-p2{
+    border-radius: 450px;
+border: 15px solid red;
+width: 450px;
+height: 450px;
+flex-shrink: 0;
+}
+.sec3-p3-mini-title{
+    width: 126px;
+    height: 58px;
+    color: red;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+padding-bottom: 0px;
+line-height: normal;
+}
+.sec3-p3-info{
+    padding-top: 0px;
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+.section-4{
+    margin-top: 200px;
+    margin-left: 2275px;
+}
+.sec4-p1-mini-title{
+    color: #F00;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.sec4-p2-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.sec4-p3-info{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    width: 896px;
 }
