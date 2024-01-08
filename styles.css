@@ -395,17 +395,17 @@ footer{
     
     padding: 50px;
     background-color: #070211;
-    display: flex;
+    display: block;
     
     justify-content: center;
     align-items: center;
 }
 .footcombine1-2{
-    display: block;
+    display: flex;
     justify-content: space-between;
 }
 .footcombine4-5{
-    display: block;
+    display: flex;
     justify-content: space-between;
 }
 .foot-p1{
@@ -425,7 +425,10 @@ footer{
     line-height: normal;
 }
 .foot-p3{
-
+    padding: 40px;
+ display: flex;
+ justify-content: center;
+ gap: 25px;
 }
 .foot-p2{
     color: #FFF;
@@ -438,8 +441,4 @@ line-height: 40px; /* 166.667% */
 .foot-p5{
     color: #FFF;
 font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 40px; /* 166.667% */
 }
