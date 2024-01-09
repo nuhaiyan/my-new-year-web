@@ -102,14 +102,25 @@ line-height: 30px; /* 166.667% */
 }
 .sec2-btn{
     cursor: pointer; 
-    border: 1px solid black; 
+    border: 1px solid rgb(255, 255, 255);
+    padding: 11px; 
     background-color: transparent; 
     color: white; 
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
     text-align: center;
     font-family: Inter;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+.sec2-btn:hover,.sec2-btn:focus,.sec2-btn:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 .section-3{
     display: flex;
@@ -387,6 +398,16 @@ align-items: center;
     font-family: Inter;
     font-size: 20px;
     font-weight: 500;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+.sec5-btn:hover,.sec5-btn:focus,.sec5-btn:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 footer{
     margin-top: 200px;
@@ -441,7 +462,18 @@ line-height: 40px;
 .foot-p5{
     color: #FFF;
 font-family: Inter;
+background: transparent; border: none; color: white; cursor: pointer; font-size: medium; padding-top: 30px;
+-webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
 }
+.foot-p5:hover,.foot-p5:focus,.foot-p5:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 .section-6{
     margin: auto;
     display: flex;
@@ -485,4 +517,14 @@ font-family: Inter;
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+.sec6-p2:hover,.sec6-p2:focus,.sec6-p2:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
