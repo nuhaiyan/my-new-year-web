@@ -567,15 +567,21 @@ width: 1068px;
 margin-top: -20px;
 }
 .secx-p2{
-
+margin-bottom: -500px;
 }
 .secx-p3{
-    margin-left: 400px;
-    margin-bottom: -80px;
+    background: url(image/rect1.png);
+    margin-left: 1000px;
+    margin-bottom: 400px;
+    background-repeat: no-repeat;
 }
 .secx-p4{
-    
+    width: 360px;
+height: 229px;
+flex-shrink: 0;
 }
 .secx-p5{
-    
+    width: 206.841px;
+height: 206.841px;
+flex-shrink: 0;
 }
