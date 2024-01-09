@@ -528,3 +528,54 @@ background: transparent; border: none; color: white; cursor: pointer; font-size:
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+.section-cx{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 200px;
+}
+.secx-mini-title{
+    margin-bottom: -20px;
+    color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+}
+.secx-title{
+    color: black;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.secx-info{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+padding-left: 120px;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+width: 1068px;
+margin-top: -20px;
+}
+.secx-p2{
+
+}
+.secx-p3{
+    margin-left: 400px;
+    margin-bottom: -80px;
+}
+.secx-p4{
+    
+}
+.secx-p5{
+    
+}
